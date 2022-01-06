@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+body {
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 0px; 
+  /* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #2BFFF8 0%, #000000 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #2BFFF8 0%, #000000 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #2BFFF8 0%, #000000 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #2BFFF8), color-stop(1, #000000));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #2BFFF8 0%, #000000 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #2BFFF8 0%, #000000 100%);
+}
+
+
+
+* { color:#fff; text-decoration: none;}
+.cambria{
+    margin: 50px auto;
+}
+#logo-container svg {
+    width: 250px;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #logo-container svg {
+      width: 150px;
+      height: auto;
+    }  
+  }
